@@ -19,18 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4cdeee-7a02-404a-b084-9cfd4effca76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/alibaba-cloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/CloudSentinelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/java/com/example/CloudSentinelApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/flowrule.json" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-sentinel/src/main/resources/flowrule.json" afterDir="false" />
+    <list default="true" id="3a4cdeee-7a02-404a-b084-9cfd4effca76" name="Default" comment="配置文件修改">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,8 +146,16 @@
       <option name="presentableId" value="Default" />
       <updated>1553778925101</updated>
       <workItem from="1553778929611" duration="150000" />
-      <workItem from="1639555046848" duration="2550000" />
+      <workItem from="1639555046848" duration="2835000" />
     </task>
+    <task id="LOCAL-00001" summary="配置文件修改">
+      <created>1639557841928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639557841929</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +171,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="配置文件修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件修改" />
   </component>
   <component name="WindowStateProjectService">
     <state width="428" height="466" key="DebuggerActiveHint" timestamp="1639555546033">
@@ -243,14 +245,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="405" y="196" key="SettingsEditor/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639555163350" />
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2" timestamp="1639557938716">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="297" key="Vcs.Push.Dialog.v2/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639557938716" />
     <state x="597" y="315" width="597" height="490" key="find.popup" timestamp="1639557795278">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="597" y="315" width="597" height="490" key="find.popup/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639557795278" />
-    <state x="672" y="453" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1639557510730">
+    <state x="571" y="352" key="git4idea.merge.GitPullDialog" timestamp="1639557873521">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="672" y="453" key="git4idea.remote.GitConfigureRemotesDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639557510730" />
+    <state x="571" y="352" key="git4idea.merge.GitPullDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639557873521" />
+    <state x="672" y="453" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1639557902187">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="672" y="453" key="git4idea.remote.GitConfigureRemotesDialog/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639557902187" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1639558051364">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1639558051364" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
