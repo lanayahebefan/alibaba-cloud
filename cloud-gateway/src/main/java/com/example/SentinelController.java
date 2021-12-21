@@ -1,13 +1,13 @@
 package com.example;
+
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.example.service.EchoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.HashMap;
 import java.util.Map;
+
 /**
  *
  * @author : zhangqing
@@ -20,8 +20,6 @@ public class SentinelController {
     @Value("${spring.application.name}")
     private String appName;
 
-    @Autowired
-    private EchoService echoService;
     /***
      * @SentinelResource 注解来完成限流的埋点
      * @return
@@ -56,7 +54,7 @@ public class SentinelController {
      * blockHandler:blockHandlerClass中对应的异常处理方法名。参数类型和返回值必须和原方法一致
      * blockHandlerClass：自定义限流逻辑处理类
      */
-    @SentinelResource(value = "resource2", blockHandler = "handleException", blockHandlerClass = ExceptionUtil.class)
+//    @SentinelResource(value = "resource2", blockHandler = "handleException", blockHandlerClass = {ExceptionUtil.class})
     @RequestMapping("/sentinel/test2")
     public Map<String,Object> test2() {
         Map<String,Object> map=new HashMap<>();

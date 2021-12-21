@@ -1,0 +1,40 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 18086
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: service-provider
+          predicates:
+            - Path=/service-provider/**
+          uri: lb://service-provider
+          filters:
+            - StripPrefix=1
+        - id: cloud-config
+          predicates:
+            - Path=/cloud-config/**
+          uri: lb://cloud-config
+          filters:
+            - StripPrefix=1
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      datasource:
+        ds:
+          nacos:
+            dataId: cloud-sentinel
+            groupId: DEFAULT_GROUP
+            rule-type: flow
+            server-addr: 127.0.0.1:8848
+      eager: true
+      transport:
+        dashboard: 127.0.0.1:8858
+        port: 8719

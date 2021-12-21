@@ -4,7 +4,11 @@ import com.alibaba.csp.sentinel.slots.block.BlockException;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ *
+ * @author : zhangqing
+ * @date : 2021/12/21 下午4:06
+ */
 public class ExceptionUtil {
 
     public static Map<String,Object> handleException(BlockException ex) {

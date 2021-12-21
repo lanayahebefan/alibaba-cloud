@@ -4,6 +4,7 @@ import feign.Logger;
 import org.springframework.context.annotation.Bean;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
 
 
 /**

@@ -1,0 +1,17 @@
+spring:
+    profiles:
+        active: dev
+    application:
+        name: cloud-config
+    cloud:
+        nacos:
+            discovery:
+                server-addr: 127.0.0.1:8848 #Nacos服务注册中心地址
+            config:
+                server-addr: 127.0.0.1:8848 #Nacos作为配置中心地址
+                file-extension: yaml  #指定yaml格式的配置
+                group: DEFAULT_GROUP
+                prefix: nacos-provider
+#                namespace: c13e4224-61f6-4f2c-b52b-f51339e687b1
+
+
