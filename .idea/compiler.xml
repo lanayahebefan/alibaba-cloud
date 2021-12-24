@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-client" />
-        <module name="cloud-config" />
         <module name="cloud-sentinel" />
         <module name="cloud-gateway" />
+        <module name="cloud-client" />
         <module name="cloud-consumer" />
+        <module name="cloud-rocketmq" />
+        <module name="cloud-config" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +22,7 @@
       <module name="cloud-config" options="-parameters" />
       <module name="cloud-consumer" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
+      <module name="cloud-rocketmq" options="-parameters" />
       <module name="cloud-sentinel" options="-parameters" />
     </option>
   </component>

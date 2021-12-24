@@ -21,7 +21,6 @@ public class CloudSentinelApplication {
     }
 
     @Bean
-//    @SentinelRestTemplate(blockHandler = "handleException", blockHandlerClass = ExceptionUtil.class)
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }

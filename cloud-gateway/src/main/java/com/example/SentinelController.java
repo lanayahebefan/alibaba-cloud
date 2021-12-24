@@ -27,11 +27,9 @@ public class SentinelController {
     @SentinelResource("resource")
     @RequestMapping("/sentinel/hello")
     public Map<String,Object> hello(){
-//        String result=echoService.echo(appName);
         Map<String,Object> map=new HashMap<>(2);
         map.put("appName",appName);
         map.put("method","hello");
-//        map.put("result",result);
         return map;
     }
     /**

@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/cloud-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-rocketmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-sentinel/src/main/java" charset="UTF-8" />
   </component>
 </project>
